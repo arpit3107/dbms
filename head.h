@@ -31,6 +31,7 @@ public:
     int getNumChannels() const;
     void IncVol (float times);
     void DecVol (float times);
+    void noth();
     int getNumSamplesPerChannel() const;
     double getLengthInSeconds() const;
     WavBuffer samples;
